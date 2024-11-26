@@ -274,30 +274,30 @@ def main(page: ft.Page):
                                         ]
                                     ),
                                     ft.Row(
-                                      alignment="center",
-                                      controls=[
+                                    alignment="center",
+                                    controls=[
                                         btn5, btn6, btn7,btn8
-                                      ]  
+                                    ]  
                                     ),
                                     ft.Row(
-                                       alignment="center",
+                                    alignment="center",
                                         controls=[
-                                          btn9, btn10, btn11,btn12
+                                        btn9, btn10, btn11,btn12
                                         ] 
                                     ),
                                     ft.Row(
                                         alignment="center",
                                         controls=[
-                                          btn13,btn14,btn15,btn16
+                                        btn13,btn14,btn15,btn16
                                         ] 
                                     ),
                                     ft.Row(
                                         alignment="center",
                                         controls=[
-                                          btn17,btn18,btn19,btn20
+                                        btn17,btn18,btn19,btn20
                                         ] 
                                     ),
-                                     ElevatedButton(
+                                    ElevatedButton(
                                         'La evolución de los lenguajes de programación',
                                         on_click=lambda _: page.go('/lenguajes')
                                     ),
@@ -529,7 +529,7 @@ def main (page: ft.Page):
 
 
 
-  # Manejo del cambio de ruta
+# Manejo del cambio de ruta
     def route_change(route):
         # Limpia las vistas anteriores
         page.views.clear()
@@ -596,24 +596,24 @@ def main (page: ft.Page):
                                         ]
                                     ),
                                     ft.Row(
-                                      alignment="center",
-                                      controls=[
+                                    alignment="center",
+                                    controls=[
                                         btn5, btn6, btn7,btn8
-                                      ]  
+                                    ]  
                                     ),
                                     ft.Row(
-                                       alignment="center",
+                                    alignment="center",
                                         controls=[
-                                          btn9, btn10, btn11,btn12
+                                        btn9, btn10, btn11,btn12
                                         ]
                                     ),
                                     ft.Row(
                                         alignment="center",
                                         controls=[
-                                          btn13,btn14,btn15,btn16
+                                        ,btn14,btn15,btn16
                                         ] 
                                     ),
-                                     ElevatedButton(
+                                    ElevatedButton(
                                         'La evolución de los lenguajes de programación',
                                         on_click=lambda _: page.go('/lenguajes')
                                     ),
@@ -908,24 +908,24 @@ def main (page: ft.Page):
                                         ]
                                     ),
                                     ft.Row(
-                                      alignment="center",
-                                      controls=[
+                                    alignment="center",
+                                    controls=[
                                         btn5, btn6, btn7,btn8
-                                      ]  
+                                    ]  
                                     ),
                                     ft.Row(
-                                       alignment="center",
+                                    alignment="center",
                                         controls=[
-                                          btn9, btn10, btn11,btn12
+                                        btn9, btn10, btn11,btn12
                                         ] 
                                     ),
                                     ft.Row(
                                         alignment="center",
                                         controls=[
-                                          btn13,btn14,btn15,btn16
+                                        btn13,btn14,btn15,btn16
                                         ] 
                                     ),
-                                     ElevatedButton(
+                                    ElevatedButton(
                                         'La evolución de los lenguajes de programación',
                                         on_click=lambda _: page.go('/lenguajes')
                                     ),
